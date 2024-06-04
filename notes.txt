@@ -1,0 +1,12 @@
+#installing missing dependecies
+npm install 
+
+create components, rended to dom, and show it
+
+In a component it is necessary to export the function
+some types of components are
+-Counter Component
+-Todo List Compoenent
+-Fetch Data from API
+-Controlled Form Component
+-Modal Component

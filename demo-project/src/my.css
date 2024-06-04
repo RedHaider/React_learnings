@@ -1,0 +1,42 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the <div> element for the homepage */
+  div {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  /* Styling the <nav> element for the navigation bar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling the <h1> element inside the navigation bar */
+  .navbar h1 {
+    font-size: 24px;
+  }
+  
+  /* Styling the links inside the navigation bar */
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  /* Styling the links on hover */
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
