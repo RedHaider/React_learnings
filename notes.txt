@@ -10,3 +10,7 @@ some types of components are
 -Fetch Data from API
 -Controlled Form Component
 -Modal Component
+
+
+npx json-server --watch data/db.json --port 8000
+
