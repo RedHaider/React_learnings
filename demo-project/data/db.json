@@ -1,24 +1,40 @@
 {
-
-    "list":[
+  "list": [
     {
-      "id": 1,
-      "title": "First Post",
-      "body": "This is the body of the first post",
-      "author": "Alice"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "title": "Second Post",
       "body": "This is the body of the second post",
       "author": "Bob"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Third Post",
       "body": "This is the body of the third post",
       "author": "Charlie"
+    },
+    {
+      "id": "32f1",
+      "title": "Lost in Istanbul",
+      "body": "Lost in Istanbul Lost in Istanbul Lost in Istanbul Lost in Istanbul",
+      "author": "Haider"
+    },
+    {
+      "id": "2193",
+      "title": "Badubati",
+      "body": "Badubati, Badubati\nMaika mile kadi kadi",
+      "author": "Chahat Fateh Ali Khan"
+    },
+    {
+      "id": "d9b3",
+      "title": "Yo ",
+      "body": "yo",
+      "author": "yoshi"
+    },
+    {
+      "id": "51a2",
+      "title": "Abhi ja Sanam",
+      "body": "Raindrops pitter-pattered against the windowpane, a gentle rhythm that coaxed a sense of calm. Curled up with a well-worn book, the world outside seemed to melt away, replaced by the captivating story unfolding within the pages. A mug of cocoa, warm in her hands, sent tendrils of comfort through her. It was a perfect afternoon for getting lost in a good book.",
+      "author": "Haider"
     }
-]
-
+  ]
 }

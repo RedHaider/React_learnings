@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+/* Add this CSS to center the card vertically */
+
+
+.create {
+  width: 70%; /* Adjust width as needed */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Card background color */
+  margin: 0 auto; /* Center horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.create_row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add spacing between rows */
+}
+
+.create_row label {
+  flex: 0 0 100px; /* Adjust the width of the label */
+}
+
+.create_row input[type="text"],
+.create_row textarea {
+  width: calc(100% - 110px); /* Take up remaining space */
+  padding: 10px;
+  margin-left: 10px; /* Add spacing between label and input */
+  border: 1px solid #cccccc; /* Input border color */
+  border-radius: 5px;
+}
+
+
+.create_row input[type="text"]:focus,
+.create_row textarea:focus {
+  outline: none;
+  border-color: #0099ff; /* Input border color on focus */
+}
+
+.create-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}

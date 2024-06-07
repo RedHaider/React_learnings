@@ -1,0 +1,3 @@
+docker compose up -d db
+docker compose up backend --build
+docker compose run backend celery -A main worker --loglevel=info -P gevent --concurrency 1 -E

@@ -12,10 +12,10 @@ const title = props.title;
             <div key={item.id} className="post">
                 <Link to={`/blog/${item.id}`}>
                 <h3>{item.title}</h3>
+                </Link>
                 <p>{item.body}</p>
                 <p>{item.author}</p>
                 <p><strong>{item.id}</strong></p>
-                </Link>
             </div>
         ))}
         </div>
